@@ -1,3 +1,5 @@
+
+
 def greet(name, time_of_day)
   return "Good #{time_of_day}, #{name.capitalize()}"
 end
@@ -65,8 +67,8 @@ def cube_volume(side_length)
 end
 
 def sphere_volume (radius)
-  result = 1.33 * Math::PI * radius**3
-  return result.floor
+  result = (4.0/3) * Math::PI * (radius ** 3)
+  return result
 end
 
 def fahrenheit_to_celsius(far)
